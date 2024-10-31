@@ -43,17 +43,35 @@ The final script calculates the multiplicity of each identified repeat unit, pro
 
 ## Installation
 1.  Clone the repository:
-   git clone https://github.com/your-username/repeat-identification.git
+   ``` bash
+    git clone https://github.com/your-username/repeat-identification.git
+   ```
 2.  Navigate to the project directory
+   ```bash
    cd repeat-identification
+  ```
 
 ## Usage
 - Step 1: Parse YASS output files.
-  ('python YASS_Parser.py --input your_yass_output.txt --min_length 50')
+  ```bash
+  python YASS_Parser.py --input your_yass_output.txt --min_length 50
+  ```
 - Step 2: Identify candidate repeat units.
+  ```bash
   python Repeat_identification.py --input parsed_alignments.txt --min_length 50
+  ```
 - Step 3: Calculate repeat multiplicities
+  ```bash
   python Repeat_multiplicities_calculator.py --input candidate_repeats.txt --output repeat_multiplicities.txt
-  
+  ```
 
+## Dependencies
+- Python 3.7+
+- Additional libraries (if any) are required for specific functionality. Install using:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+## Contributions
+Contributions are encouraged! If you encounter any issues, please open an issue or submit a pull request.
 
