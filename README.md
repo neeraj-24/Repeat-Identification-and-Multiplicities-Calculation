@@ -43,13 +43,13 @@ The final script calculates the multiplicity of each identified repeat unit, pro
 
 ## Installation
 1.  Clone the repository:
-   ``` bash
-    git clone https://github.com/your-username/repeat-identification.git
-   ```
+    ``` bash
+      git clone https://github.com/your-username/repeat-identification.git
+    ```
 2.  Navigate to the project directory
-   ```bash
-   cd repeat-identification
-  ```
+    ```bash
+     cd repeat-identification
+    ```
 
 ## Usage
 - Step 1: Parse YASS output files.
